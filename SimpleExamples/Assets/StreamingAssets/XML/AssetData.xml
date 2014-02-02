@@ -1,0 +1,29 @@
+<Database>
+	
+	<!-- Asset Bundle Infos -->
+	<AssetBundleInfo ID="ASSET_BUNDLE_MAIN_CONTENT">
+		<Name>MainContent</Name>
+		<URL>StreamingAssets/AssetBundles/MainContent.unity3d</URL>
+	</AssetBundleInfo>
+
+	<!-- Asset Infos -->
+
+	<!-- Tiles -->
+	<AssetInfo ID="ASSET_TILE_GRASS">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Resources/Tiles/TileGrass.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_TILE_WATER">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Resources/Tiles/TileWater.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_TILE_DIRT">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Resources/Tiles/TileDirt.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_TILE_STONE">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Resources/Tiles/TileStone.prefab</Path>
+	</AssetInfo>
+
+</Database>

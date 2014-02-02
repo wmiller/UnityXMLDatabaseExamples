@@ -1,0 +1,62 @@
+<Database>
+
+	<!-- Tile Infos -->
+	<TileInfo ID="TILE_WATER">
+		<Height>0</Height>
+		<FeatureChance>0</FeatureChance>
+		<PrefabInfoRef>ASSET_TILE_WATER</PrefabInfoRef>
+	</TileInfo>
+	<TileInfo ID="TILE_GRASS">
+		<Height>1</Height>
+		<FeatureChance>30</FeatureChance>
+		<PrefabInfoRef>ASSET_TILE_GRASS</PrefabInfoRef>
+		<PossibleFeatures>
+			<FeatureInfoRef>FEATURE_SHORT_TREE</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_TALL_TREE</FeatureInfoRef>
+		</PossibleFeatures>
+	</TileInfo>
+	<TileInfo ID="TILE_DIRT">
+		<Height>2</Height>
+		<FeatureChance>30</FeatureChance>
+		<PrefabInfoRef>ASSET_TILE_DIRT</PrefabInfoRef>
+		<PossibleFeatures>
+			<FeatureInfoRef>FEATURE_BLUE_GEM</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_ORANGE_GEM</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_GREEN_GEM</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_UGLY_TREE</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_ROCK</FeatureInfoRef>
+		</PossibleFeatures>
+	</TileInfo>
+	<TileInfo ID="TILE_STONE">
+		<Height>3</Height>
+		<FeatureChance>10</FeatureChance>
+		<PrefabInfoRef>ASSET_TILE_STONE</PrefabInfoRef>
+		<PossibleFeatures>
+			<FeatureInfoRef>FEATURE_ROCK</FeatureInfoRef>
+		</PossibleFeatures>
+	</TileInfo>
+
+	<!-- Feature Infos -->
+	<FeatureInfo ID="FEATURE_BLUE_GEM">
+		<PrefabInfoRef>ASSET_FEATURE_BLUE_GEM</PrefabInfoRef>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_GREEN_GEM">
+		<PrefabInfoRef>ASSET_FEATURE_GREEN_GEM</PrefabInfoRef>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_ORANGE_GEM">
+		<PrefabInfoRef>ASSET_FEATURE_ORANGE_GEM</PrefabInfoRef>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_ROCK">
+		<PrefabInfoRef>ASSET_FEATURE_ROCK</PrefabInfoRef>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_SHORT_TREE">
+		<PrefabInfoRef>ASSET_FEATURE_SHORT_TREE</PrefabInfoRef>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_TALL_TREE">
+		<PrefabInfoRef>ASSET_FEATURE_TALL_TREE</PrefabInfoRef>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_UGLY_TREE">
+		<PrefabInfoRef>ASSET_FEATURE_UGLY_TREE</PrefabInfoRef>
+	</FeatureInfo>
+
+</Database>

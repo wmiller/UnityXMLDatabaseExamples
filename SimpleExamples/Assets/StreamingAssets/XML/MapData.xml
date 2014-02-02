@@ -1,0 +1,62 @@
+<Database>
+
+	<!-- Tile Infos -->
+	<TileInfo ID="TILE_WATER">
+		<Height>0</Height>
+		<FeatureChance>0</FeatureChance>
+		<PrefabPath>Tiles/TileWater</PrefabPath>
+	</TileInfo>
+	<TileInfo ID="TILE_GRASS">
+		<Height>1</Height>
+		<FeatureChance>30</FeatureChance>
+		<PrefabPath>Tiles/TileGrass</PrefabPath>
+		<PossibleFeatures>
+			<FeatureInfoRef>FEATURE_SHORT_TREE</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_TALL_TREE</FeatureInfoRef>
+		</PossibleFeatures>
+	</TileInfo>
+	<TileInfo ID="TILE_DIRT">
+		<Height>2</Height>
+		<FeatureChance>30</FeatureChance>
+		<PrefabPath>Tiles/TileDirt</PrefabPath>
+		<PossibleFeatures>
+			<FeatureInfoRef>FEATURE_BLUE_GEM</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_ORANGE_GEM</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_GREEN_GEM</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_UGLY_TREE</FeatureInfoRef>
+			<FeatureInfoRef>FEATURE_ROCK</FeatureInfoRef>
+		</PossibleFeatures>
+	</TileInfo>
+	<TileInfo ID="TILE_STONE">
+		<Height>3</Height>
+		<FeatureChance>10</FeatureChance>
+		<PrefabPath>Tiles/TileStone</PrefabPath>
+		<PossibleFeatures>
+			<FeatureInfoRef>FEATURE_ROCK</FeatureInfoRef>
+		</PossibleFeatures>
+	</TileInfo>
+
+	<!-- Feature Infos -->
+	<FeatureInfo ID="FEATURE_BLUE_GEM">
+		<PrefabPath>Features/FeatureBlueGem</PrefabPath>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_GREEN_GEM">
+		<PrefabPath>Features/FeatureGreenGem</PrefabPath>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_ORANGE_GEM">
+		<PrefabPath>Features/FeatureOrangeGem</PrefabPath>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_ROCK">
+		<PrefabPath>Features/FeatureRock</PrefabPath>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_SHORT_TREE">
+		<PrefabPath>Features/FeatureShortTree</PrefabPath>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_TALL_TREE">
+		<PrefabPath>Features/FeatureTallTree</PrefabPath>
+	</FeatureInfo>
+	<FeatureInfo ID="FEATURE_UGLY_TREE">
+		<PrefabPath>Features/FeatureUglyTree</PrefabPath>
+	</FeatureInfo>
+
+</Database>

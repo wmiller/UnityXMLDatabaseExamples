@@ -1,0 +1,93 @@
+<Database>
+	
+	<!-- Asset Bundle Infos -->
+	<AssetBundleInfo ID="ASSET_BUNDLE_MAIN_CONTENT">
+		<Name>MainContent</Name>
+		<URL>StreamingAssets/AssetBundles/MainContent.unity3d</URL>
+	</AssetBundleInfo>
+
+	<!-- Asset Infos -->
+
+	<!-- Tiles -->
+	<AssetInfo ID="ASSET_TILE_WATER">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Tiles/TileWater.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_TILE_GRASS">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Tiles/TileGrass.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_TILE_DIRT">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Tiles/TileDirt.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_TILE_STONE">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Tiles/TileStone.prefab</Path>
+	</AssetInfo>
+
+	<!-- Features -->
+	<AssetInfo ID="ASSET_FEATURE_BLUE_GEM">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Features/FeatureBlueGem.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_FEATURE_GREEN_GEM">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Features/FeatureGreenGem.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_FEATURE_ORANGE_GEM">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Features/FeatureOrangeGem.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_FEATURE_ROCK">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Features/FeatureRock.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_FEATURE_SHORT_TREE">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Features/FeatureShortTree.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_FEATURE_TALL_TREE">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Features/FeatureTallTree.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_FEATURE_UGLY_TREE">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Features/FeatureUglyTree.prefab</Path>
+	</AssetInfo>
+
+	<!-- Shadows -->
+	<AssetInfo ID="ASSET_SHADOW_EAST">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Shadows/ShadowEast.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_SHADOW_NORTH">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Shadows/ShadowNorth.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_SHADOW_NORTH_EAST">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Shadows/ShadowNorthEast.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_SHADOW_NORTH_WEST">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Shadows/ShadowNorthWest.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_SHADOW_SOUTH">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Shadows/ShadowSouth.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_SHADOW_SOUTH_EAST">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Shadows/ShadowSouthEast.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_SHADOW_SOUTH_WEST">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Shadows/ShadowSouthWest.prefab</Path>
+	</AssetInfo>
+	<AssetInfo ID="ASSET_SHADOW_WEST">
+		<AssetBundleInfoRef>ASSET_BUNDLE_MAIN_CONTENT</AssetBundleInfoRef>
+		<Path>Assets/Common/Prefabs/Shadows/ShadowWest.prefab</Path>
+	</AssetInfo>
+
+</Database>
