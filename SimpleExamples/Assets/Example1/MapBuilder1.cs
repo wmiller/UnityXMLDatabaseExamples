@@ -18,14 +18,16 @@ public class MapBuilder1 : MapBuilder
                 // Create tile
                 if (height >= 0 && height < TileLoadStrings.Length)
                 {
-                    InstantiateMapPrefab(x, y, MapObjectDepth.Tile, Resources.Load<GameObject>(TileLoadStrings[height]));
+					GameObject prefab = Resources.Load<GameObject>(TileLoadStrings[height]);
+                    InstantiateMapPrefab(x, y, MapObjectDepth.Tile, prefab);
                 }
 
                 // Randomly create a feature for this tile (not on water)
                 if (height > 0 && Random.Range(0, 100) < FeatureChance)
                 {
                     string randomFeaturePath = FeatureLoadStrings[Random.Range(0, FeatureLoadStrings.Length)];
-                    InstantiateMapPrefab(x, y, MapObjectDepth.Feature, Resources.Load<GameObject>(randomFeaturePath));
+					GameObject prefab = Resources.Load<GameObject>(randomFeaturePath);
+                    InstantiateMapPrefab(x, y, MapObjectDepth.Feature, prefab);
                 }
             }
         }
